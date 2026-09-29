@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Drug Store | Documentation</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+	
+	<!-- Included Stylesheet -->
+	<link rel="stylesheet" href="css/prism.css" />
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<style>.style-none {list-style: none;}</style>
+
+	<!-- Include js files -->
+	<!-- jQuery Library -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<!-- Popper Plugin -->
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<!-- Bootstrap Framework -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- jQuery Fancybox Plugin -->
+	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+	<!-- prism Plugin -->
+	<script type="text/javascript" src="js/prism.js"></script>
+	<!-- scrolltofixed Plugin -->
+	<script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+	<!-- scrolltofixed Plugin -->
+	<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+	<!-- Toastr Plugin -->
+	<script type="text/javascript" src="js/custom.js"></script>
+</head>
+<body>
+	
+	<!-- Main Container -->
+	<div id="main-wrapper">
+		<!-- Menu Wrapper -->
+		<div class="menu-wrapper menu-wrapper-white">
+			<div class="menu">
+				<!-- Logo Container -->
+				<div id="logo">
+					<div class="tbl-cell logo-icon">
+						<a href="#"><img src="images/icon.png" alt=""></a>
+					</div>
+					<div class="tbl-cell logo">
+						<a href="#"><img src="images/logo.png"></a>
+					</div>
+				</div>
+				<!-- Menu Container -->
+				<ul>
+					<li>
+						<a href="#introduction" class="active"><i class="icon-info"></i><span>Introduction</span></a>
+					</li>
+					<li>
+						<a href="#general-information"><i class="ti-desktop"></i><span>General Information</span></a>
+					</li>
+					<li>
+						<a href="#file-strucutre"><i class="ti-files"></i><span>File Strucutre</span></a>
+					</li>
+					<li>
+						<a href="#font-family"><i class="fas fa-flag"></i><span>Font Family</span></a>
+					</li>
+					<li>
+						<a href="#SCSS"><i class="ti-css3"></i><span>SCSS</span></a>
+					</li>
+					<li>
+						<a href="#icons"><i class="ti-layout-width-full"></i><span>Icons</span></a>
+					</li>
+					<li>
+						<a href="#installation"><i class="ti-ruler-pencil"></i><span>Installation</span></a>
+					</li>
+					<li>
+						<a href="#features"><i class="ti-shopping-cart-full"></i><span>Features</span></a>
+					</li>
+					<li>
+						<a href="#permission"><i class="ti-image"></i><span>User Roles</span></a>
+					</li>
+					<li>
+						<a href="#support"><i class="ti-settings"></i><span>Help & Support</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Main Page Wrapper -->
+		<div class="page-wrapper">
+			<!-- Page header -->
+			<div class="page-hdr p-4">
+				<div class="row align-items-center">
+					<div class="col-6 page-hdr-left">
+						<div class="mobile-logo">
+							<a href="#"><img src="images/logo.png" alt=""></a>
+						</div>
+					</div>
+					<div class="col-6 page-hdr-right">
+						<div class="page-hdr-mobile">
+							<div class="page-menu open-left-menu">
+								<a href="#"><i class="icon-menu"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page-title">
+				<div class="row align-items-center">
+					<div class="col-sm-6">
+						<h2 class="page-title-text">Documentation</h2>
+					</div>
+					<div class="col-sm-6 text-right">
+						<div class="breadcrumbs">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li>Documentation</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page-body">
+				<div class="row">
+					<div class="col-12">
+						<div id="introduction" class="panel panel-default">
+							<div class="panel-head">
+								<div class="panel-title">
+									<span class="panel-title-text">Introduction</span>
+								</div>
+							</div>
+							<div class="panel-body">
+								<p>Thank you for purchasing our Drug Store theme. If you have any questions that are beyond the scope of this help file, please feel free to contact us here Pepdev or mail us at support@pepdev.com.</p>
+								<p>Drug Store is a pharmacy management system developed with PHP. Drug Store theme is an affordable solution to help grow your business and track your store data like stock, purchases, billings and report, purchase report and so many things. It store all of your pharmacy data for easy retrieval and tracking including your Medicines, Employees, Customers, POS/Bill, Invoice, Purchase, Stock Adujstment, Accounting, Expenses, Attendence, Payroll, Attendance, Reports and Users. You can create multiple admin role. Manage all from one simple yet powerful application.</p>
+								<ul>
+									<li>Author : <a href="http://pepdev.com/" class="text-primary">Pepdev</a></li>
+									<li>Contact : <a class="text-primary">pepdevofficial@gmail.com</a></li>
+								</ul>
+								<p>Support does include:</p>
+								<ul>
+									<li class="text-success">Availability of the author to answer questions</li>
+									<li class="text-success">Answering technical questions about item’s features</li>
+									<li class="text-success">Assistance with reported bugs and issues</li>
+								</ul>
+								<p>Support does not include:</p>
+								<ul>
+									<li class="text-danger">Custmaization Work</li>
+									<li class="text-danger">Any Installation Work</li>
+									<li class="text-danger">Support for any Third Party Plugins / Software</li>
+									<li class="text-danger">Solve bug in your customized version</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div id="general-information" class="panel panel-default">
+							<div class="panel-head">
+								<div class="panel-title">
+									<span class="panel-title-text">General Information</span>
+								</div>
+							</div>
+							<div class="panel-body">
+								<h4>Software requirements</h4>
+								<ul>
+									<li><a href="https://www.sublimetext.com/3" class="text-primary">Sublime Text 3</a> used to edit the .HTML, .JS, .CSS, .SCSS, .php files</li>
+									<li><a href="http://koala-app.com/" class="text-primary">Koala</a> used as precompiler for SCSS to CSS convert.</li>
+								</ul>
+								<p class="mb-4">Drug Store comes with a flexible file structure that can be easily used.</p>
+								<h4>The following scheme displays the template files structure.</h4>
+								<ul class="style-none">
+									<li class="text-black mb-2"><i class="fa fa-folder text-light font-18 mr-2"></i> Documentation - <small class="text-primary">contains documentation of template cusotmisation and support</small></li>
+									<li class="text-black mb-2"><i class="fa fa-folder text-light font-18 mr-2"></i> License - <small class="text-primary">contains License file of template</small></li>
+									<li class="text-black mb-2">
+										<i class="fa fa-folder text-light font-18 mr-2"></i> Theme - <small class="text-primary">contains the main files of the theme. which will be uploaded on server.</small>
+										<ul class="style-none mt-2">
+											<li class="text-black mb-2"> 
+												<i class="far fa-folder text-light font-18 mr-2"></i> App - <small class="text-primary">Contains Controller, Model and Views Files</small>
+											</li>
+											<li class="text-black mb-2"> 
+												<i class="far fa-folder text-light font-18 mr-2"></i> Builder - <small class="text-primary">contains sytem files like router, session, Mailer and more.</small>
+											</li>
+											<li class="text-black mb-2"> 
+												<i class="far fa-folder text-light font-18 mr-2"></i> Config - <small class="text-primary">contains configuration files.</small>
+											</li>
+											<li class="text-black mb-2"> 
+												<i class="far fa-folder text-light font-18 mr-2"></i> Install - <small class="text-primary">contains installation files(Please delete this folder after installation).</small>
+											</li>
+											<li class="text-black mb-2"> 
+												<i class="far fa-folder text-light font-18 mr-2"></i> Public - <small class="text-primary">contains CSS, JS, Images files.</small>
+											</li>
+										</ul>
+									</li>
+									<li class="text-black mb-2"><i class="fa fa-folder text-light font-18 mr-2"></i> Screenshot - <small class="text-primary">Contains screenshot of theme.</small></li>
+									<li class="text-black mb-2">
+										<i class="fa fa-folder text-light font-18 mr-2"></i> Sources - <small class="text-primary">Contains screenshot of theme.</small>
+										<ul class="style-none mt-2">
+											<li class="text-black mb-2"> 
+												<i class="far fa-folder text-light font-18 mr-2"></i> sass - <small class="text-primary">contains .css SCSS files used in the theme.</small>
+											</li>
+											<li class="text-black mb-2"> 
+												<i class="far fa-folder text-light font-18 mr-2"></i> DB File - <small class="text-primary">contains .css Database .mysql file used in the theme.</small>
+											</li>
+										</ul>
+									</li>
+									<li class="text-black mb-2"><i class="icon-doc text-light font-18 mr-2"></i> readme.txt - <small class="text-primary">contains the information about theme.</small></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div id="file-strucutre" class="panel panel-default">
+							<div class="panel-head">
+								<div class="panel-title">
+									<span class="panel-title-text">File Strucutre</span>
+								</div>
+							</div>
+							<div class="panel-body">
+								<h4>HTML file Structure</h4>
+								<p>This template has a responsive layout. below is smaple code of HTML</p>
+								<pre class="language-markup mb-5">
+									<code>
+										&lt;!DOCTYPE html>
+										&lt;!DOCTYPE html>
+										&lt;html lang="en">
+
+										&lt;head>
+										&lt;meta charset="UTF-8">
+										&lt;meta http-equiv="X-UA-Compatible" content="IE=edge">
+										&lt;meta name="viewport" content="width=device-width, initial-scale=1">
+										&lt;title>Drug Store | Admin Panel</title>
+										&lt;link rel="icon" type="image/x-icon" href="public/images/favicon.png">
+										<!-- Font Faimily -->
+										&lt;link href="https://fonts.googleapis.com/css?family=Dosis:500,600" rel="stylesheet">
+										&lt;link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
+										<!-- Include css files -->
+										&lt;link rel="stylesheet" href="public/css/jquery-ui.min.css" />
+										&lt;link rel="stylesheet" href="public/css/datatables.min.css">
+										&lt;link rel="stylesheet" href="public/css/bootstrap-select.min.css" />
+										&lt;link rel="stylesheet" href="public/css/morris.css" />
+										&lt;link rel="stylesheet" href="public/css/dropzone.min.css">
+										&lt;link rel="stylesheet" href="public/css/perfect-scrollbar.css">
+										&lt;link rel="stylesheet" href="public/css/style.css" />
+									</code>
+								</pre>
+								<h4>CSS file Structure</h4>
+								<p>any styles need to be changed just replace it with the wanted styles in the respective block in your style.scss.</p>
+								<pre class="language-css">
+									<code>
+
+										.h-200 
+										{
+											max-height: 200px;
+											position: relative;
+											overflow-y: auto;
+										}
+										.h-250 
+										{
+											max-height: 250px;
+											position: relative;
+											overflow-y: auto;
+										}
+										.h-300 
+										{
+											max-height: 300px;
+											position: relative;
+											overflow-y: auto;
+										}
+										.h-350 
+										{
+											max-height: 350px;
+											position: relative;
+											overflow-y: auto;
+										}
+										.h-400 
+										{
+											max-height: 400px;
+											position: relative;
+											overflow-y: auto;
+										}
+										.h-500 
+										{
+											max-height: 500px;
+											position: relative;
+											overflow-y: auto;
+										}
+										.h-600 
+										{
+											max-height: 600px;
+											position: relative;
+											overflow-y: auto;
+										}
+									</code>
+								</pre>
+								<h4>JS file Structure</h4>
+								<p> This template has dynamic animations, which have been implemented in JavaScript. The JS file is custom.js.</p>
+								<pre class="language-javascript">
+									<code>
+										//*************************************************
+										//Sidebar menu  ***********************************
+										//*************************************************
+										$('body').on('click', '.open-sidebar-right', function () 
+										{
+											var ele = $(this);
+											$('body').css('overflow', 'hidden');
+											$('body').append('<div class="overlay"></div>');
+											setTimeout(function(){ $('.sidebar-right').css('right', '0'); }, 50);
+										});
+
+										$('body').on('click', '.sidebar-close, .overlay', function () 
+										{
+											$('body').css('overflow', 'visible');
+											$('.sidebar-right').css('right', '-450px');
+											setTimeout(function(){ $('.overlay').remove(); }, 200);
+										})
+
+										//*************************************************
+										//Left Side menu  *********************************
+										//*************************************************
+										$('body').on('click', '.menu-close', function () 
+										{
+											var ele = $(this);
+											$('#main-wrapper').addClass('page-menu-small');
+											ele.find('i').removeClass('fa-hand-point-left');
+											ele.find('i').addClass('fa-hand-point-right');
+											ele.removeClass('menu-close');
+											ele.addClass('menu-open');
+										});
+
+										$('body').on('click', '.menu-open', function () 
+										{
+											var ele = $(this);
+											$('#main-wrapper').removeClass('page-menu-small');
+											ele.find('i').removeClass('fa-hand-point-right');
+											ele.find('i').addClass('fa-hand-point-left');
+											ele.removeClass('menu-open');
+											ele.addClass('menu-close');
+										});
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div id="font-family" class="panel panel-default">
+							<div class="panel-head">
+								<div class="panel-title">
+									<span class="panel-title-text">Font Family</span>
+								</div>
+							</div>
+							<div class="panel-body">
+								<p>We have used google fonts for the template you can change whatever font you wish</p>
+								<pre class="language-css">
+									<code>
+										@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+										@import url('https://fonts.googleapis.com/css?family=Dosis:500,700');
+
+										$font: 'Poppins', sans-serif;
+										$fontHeading: "Dosis", 'Poppins', sans-serif;
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div id="SCSS" class="panel panel-default">
+							<div class="panel-head">
+								<div class="panel-title">
+									<span class="panel-title-text">SCSS</span>
+								</div>
+							</div>
+							<div class="panel-body">
+								<p>Apez Admin Template is based on scss and we import all the file into style.css you can simply edit any scss and compile it. We have used koala compiler for compile.</p>
+								<pre class="language-css">
+									<code>
+										/************************************************
+										[ ICON CSS START ] ******************************
+										*************************************************/
+										@import '../fonts/line-awesome/css/line-awesome.min.css';
+
+										/************************************************
+										[ BOOTSTRAP START ] *****************************
+										*************************************************/
+										@import "bootstrap/bootstrap.scss";
+
+										/************************************************
+										[ BASIC CSS START ] *****************************
+										*************************************************/
+										@import "_variable.scss";
+
+										/************************************************
+										[ SHORTCODES CSS START ] ************************
+										*************************************************/
+										@import "_shortcodes.scss";
+
+										/************************************************
+										[ TYPOGRAPHY CSS START ] ************************
+										*************************************************/
+										@import "_typography.scss";
+
+										/************************************************
+										[ TYPOGRAPHY CSS START ] ************************
+										*************************************************/
+										@import "_calendar.scss";
+
+										//Menu Css
+										.menu-dropdown {
+										    top: 100%;
+										    text-align: left;
+										    position: absolute;
+										    z-index: 999;
+										    padding-top: 10px;
+										    width: 280px;
+										    line-height: 1.6;
+										    border-radius: 6px;
+										    visibility: hidden;
+										    opacity: 0;
+										    -webkit-transform: translateY(20px);
+										    -moz-transform: translateY(20px);
+										    -ms-transform: translateY(20px);
+										    -o-transform: translateY(20px);
+										    transform: translateY(20px);
+										    -webkit-transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+										    -moz-transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+										    -ms-transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+										    -o-transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+										    transition: all 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+
+										    .arrow {
+										        display: none;
+										        top: -10px;
+										        left: 50%;
+										        position: absolute;
+										        width: 0;
+										        height: 0;
+										        border-color: transparent transparent $color-primary transparent;
+										        border-style: solid;
+										        border-width: 10px 10px 10px 10px;
+
+										        &::after {
+										            content: " ";
+										            position: absolute;
+										            display: block;
+										            width: 0;
+										            height: 0;
+										            border-color: transparent transparent $color-primary transparent;
+										            border-style: solid;
+										            border-width: 10px 10px 10px 10px;
+										            left: -10px;
+										            bottom: -10px;
+										        }
+										    }
+
+										    .arrow-left {
+										        left: 20px;
+										    }
+
+										    .arrow-right {
+										        left: unset;
+										        right: 20px;
+										    }
+										}
+
+										.menu-dropdown-inner {
+										    background-color: $colorF;
+										    border-radius: 4px;
+										    box-shadow: 0px 0px 15px 1px rgba(69, 65, 78, 0.2);
+										}
+
+										.menu-dropdown-head {
+										    font-size: 24px;
+										    color: $colorF;
+										    text-align: center;
+										    padding: 16px 12px;
+										    font-family: $fontHeading;
+										    background: $color-primary;
+										    border-top-left-radius: 4px;
+										    border-top-right-radius: 4px;
+										}
+
+										.menu-dropdown-body {
+										    font-family: $fontHeading;
+										    padding: 10px 20px 10px 20px;
+										}
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div id="reference-file" class="panel panel-default">
+							<div class="panel-head">
+								<div class="panel-title">
+									<span class="panel-title-text">Reference File</span>
+								</div>
+							</div>
+							<div class="panel-body">
+								<p>In this template jQuery libraries and plugins have been used for dynamic animation and other features.</p>
+								<ul>
+									<li>Moment</li>
+									<li>jQuery (3.3.1)</li>
+									<li>jQuery UI (1.12.1)</li>
+									<li>Popper</li>
+									<li>Bootstrap (4.0.0)</li>
+									<li>Chartjs</li>
+									<li>Perfect Scrollbar (v1.4.0)</li>
+									<li>Scrolltofixed</li>
+									<li>Datatable (1.10.18)</li>
+									<li>Dropzone (5.5.0)</li>
+									<li>Summernote (v0.8.12)</li>
+									<li>Toastr</li>
+									<li>blockUI (2.70.0)</li>
+									<li>Daterangepicker</li>
+									<li>jquery fancybox (v3.1.28)</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div id="icons" class="panel panel-default">
+							<div class="panel-head">
+								<div class="panel-title">
+									<span class="panel-title-text">Icons</span>
+								</div>
+							</div>
+							<div class="panel-body">
+								<p>We have used multiple icons. Below is list of all icons</p>
+								<div class="table-responsive">
+									<table class="table table-bordered">
+										<tbody>
+											<tr>
+												<td>Line awesome</td>
+												<td><code>las la-tag</code></td>
+												<td><a href="https://icons8.com/line-awesome" class="text-primary">Official Page</a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div id="installation" class="panel panel-default">
+							<div class="panel-head">
+								<div class="panel-title">
+									<span class="panel-title-text">Installation</span>
+								</div>
+							</div>
+							<div class="panel-body">
+								<p>First time you have to configure and then you are good to go. We have created automatic installer to install Drug Store theme. Automatic installer is similar to wordpress and opencart.</p>
+								<h4>1 .First method for installing theme Using Installer (Recommended)</h4>
+								<ul>
+									<li>Create Database and Database User in your Database and remeber credential of it.</li>
+									<li>Unzip the downloaded package in an empty directory and upload everything from upload folder to your server directory.</li>
+									<li>Open browser (like - chrome) and run your server directory URL (like - yourdomain.com) in browser. It will take you to automatic installer</li>
+									<li>Installer will ask database credentials and other info like mail, mobile number etc.</li>
+									<li>Once you enter these information. Installation will be done.</li>
+								</ul>
+								<div class="row pb-4">
+									<div class="col-md-4">
+										<a href="images/install-1.png" data-fancybox="gallery"><img class="img-thumbnail" src="images/install-1.png" alt="Install"></a>
+									</div>
+									<div class="col-md-4">
+										<a href="images/install-2.png" data-fancybox="gallery"><img class="img-thumbnail" src="images/install-2.png" alt="Install"></a>
+									</div>
+									<div class="col-md-4">
+										<a href="images/install-3.png" data-fancybox="gallery"><img class="img-thumbnail" src="images/install-3.png" alt="Install"></a>
+									</div>
+								</div>
+								<p>Installtion is similar to wordpress installtion. If you need more help on installation. Please send us mail on pepdevofficial@gmail.com</p>
+								<p>Note - This is automatic process. You do not have to open any code file.</p>
+								<h4>2 .Second method for installing theme or Manual Process</h4>
+								<p>If you are not comfortable with installer than you can go for manual process. Do not worry installer just fill database information in config.php file and load dummy data in database.</p>
+								<ul>
+									<li>Create Database and Database User in your Database and remeber credential of it.</li>
+									<li>After that import drugstore.sql file(which is available in Source/DB file folder) in your Database which you have created.</li>
+									<li>Unzip the downloaded package in an empty directory and upload everything from upload folder to your server directory.</li>
+									<li>
+										After that you need to put that credentials in file(config.php).<br />
+										This file located in config folder which is in main code folder.<br />
+										Please update Database information, Directory path and Web URL in these config files. See the below structure of config file.
+									</li>
+									<li>Run your URL and it will open DrugStore theme.</li>
+								</ul>
+								<h5><b>Config File</b></h5>
+								
+								<pre class="language-css mb-3">
+									<code>
+										/*This name will represent title in auto generated mail*/
+										define('NAME', 'Drug Store');
+										/*Domain name like www.yourdomain.com*/
+										define('URL', '');
+
+
+										/*Application Address*/
+										define('DIR_ROUTE', 'index.php?route=');
+										define('DIR', '');
+										define('DIR_APP', DIR.'app/');
+										define('DIR_BUILDER', DIR.'builder/');
+										define('DIR_VIEW', DIR_APP.'views/');
+										define('DIR_IMAGE', DIR.'public/images/');
+										define('DIR_UPLOADS', DIR.'public/uploads/');
+										define('DIR_STORAGE', DIR_BUILDER.'storage/');
+										define('DIR_LIBRARY', DIR_BUILDER.'library/');
+										define('DIR_VENDOR', DIR_BUILDER.'vendor/');
+										define('DIR_LANGUAGE', DIR_APP.'language/');
+
+
+										/** MySQL settings - You can get this info from your web host **/
+										/*MySQL database host*/
+										define('DB_HOSTNAME', 'localhost');
+										/*MySQL database username*/
+										define('DB_USERNAME', '');
+										/*MySQL database password*/
+										define('DB_PASSWORD', '');
+										/*MySQL database Name*/
+										define('DB_DATABASE', '');
+										/*Table Prefix*/
+										define('DB_PREFIX', 'kk_');
+
+
+										define('AUTH_KEY', '');
+										define('LOGGED_IN_SALT', '');
+										define('TOKEN', '');
+										define('TOKEN_SALT', '');
+									</code>
+								</pre>
+								<h5><b>C . Open Admin panel</b></h5>
+								<p>To open admin panel type url. For example www.your-domain.com</p>
+								<p>Your admin panel credentials if you are going through manual process</p>
+								<p><b>Username - admin</b></p>
+								<p><b>password - Test@123</b></p>
+								<p><b>For security reasons Please change password after first login in admin panel.</b></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div id="features" class="panel panel-default">
+							<div class="panel-head">
+								<div class="panel-title">
+									<span class="panel-title-text">Features</span>
+								</div>
+							</div>
+							<div class="panel-body">
+								<div class="row pb-5">
+									<div class="col-md-3">
+										<div class="feature-block feature-br-primary">
+											<div class="icon text-primary"><i class="ti-blackboard"></i></div>
+											<h5 class="title">Dashboard</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-secondary">
+											<div class="icon text-secondary"><i class="ti-user"></i></div>
+											<h5 class="title">Customers</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-danger">
+											<div class="icon text-danger"><i class="ti-receipt"></i></div>
+											<h5 class="title">Invoices</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-warning">
+											<div class="icon text-warning"><i class="ti-agenda"></i></div>
+											<h5 class="title">POS/Bill</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-info">
+											<div class="icon text-info"><i class="ti-agenda"></i></div>
+											<h5 class="title">Purchase</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-dark">
+											<div class="icon text-dark"><i class="ti-wallet"></i></div>
+											<h5 class="title">Stock Adjustment</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-instagram">
+											<div class="icon text-instagram"><i class="ti-shine"></i></div>
+											<h5 class="title">Inventory/Medicines</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-purple">
+											<div class="icon text-purple"><i class="ti-unlink"></i></div>
+											<h5 class="title">Expenses</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-google">
+											<div class="icon text-google"><i class="ti-ink-pen"></i></div>
+											<h5 class="title">Attendance</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-info">
+											<div class="icon text-info"><i class="ti-money"></i></div>
+											<h5 class="title">Payroll Management</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-dark">
+											<div class="icon text-dark"><i class="ti-announcement"></i></div>
+											<h5 class="title">Noticeboard</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-accent">
+											<div class="icon text-accent"><i class="ti-id-badge"></i></div>
+											<h5 class="title">Doctors</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-facebook">
+											<div class="icon text-facebook"><i class="ti-user"></i></div>
+											<h5 class="title">Admin User & Role</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-instagram">
+											<div class="icon text-instagram"><i class="ti-email"></i></div>
+											<h5 class="title">Send Email</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-linkedin">
+											<div class="icon text-linkedin"><i class="ti-settings"></i></div>
+											<h5 class="title">System Info</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-success">
+											<div class="icon text-success"><i class="ti-paint-bucket"></i></div>
+											<h5 class="title">Admin Customization</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-warning">
+											<div class="icon text-warning"><i class="ti-bar-chart"></i></div>
+											<h5 class="title">Charts</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-facebook">
+											<div class="icon text-facebook"><i class="ti-wallet"></i></div>
+											<h5 class="title">Taxes</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-secondary">
+											<div class="icon text-secondary"><i class="ti-user"></i></div>
+											<h5 class="title">Payment Methods</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-google">
+											<div class="icon text-google"><i class="ti-write"></i></div>
+											<h5 class="title">Invoice Items</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-purple">
+											<div class="icon text-purple"><i class="ti-write"></i></div>
+											<h5 class="title">Expense Items</h5>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="feature-block feature-br-success">
+											<div class="icon text-success"><i class="ti-medall-alt"></i></div>
+											<h5 class="title">Suppliers</h5>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div id="permission" class="panel panel-default">
+							<div class="panel-head">
+								<div class="panel-title">
+									<span class="panel-title-text">User Role Permission</span>
+								</div>
+							</div>
+							<div class="panel-body">
+								<p>Login as admin in admin portal. In Left side menu, Go to user role.</p>
+								<p>You can create and update user role permission. Only admin can make changes in user role.</p>
+								<div class="row">
+									<div class="col-md-4">
+										<a href="images/screenshot-user-role-list.png" data-fancybox="gallery">
+											<img class="img-thumbnail" src="images/screenshot-user-role-list.png" alt="Image">
+										</a>
+									</div>
+									<div class="col-md-4">
+										<a href="images/screenshot-user-role-edit.png" data-fancybox="gallery">
+											<img class="img-thumbnail" src="images/screenshot-user-role-edit.png" alt="Image">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div id="support" class="panel panel-default">
+							<div class="panel-head">
+								<div class="panel-title">
+									<span class="panel-title-text">Help & Support</span>
+								</div>
+							</div>
+							<div class="panel-body">
+								<p>24/7 Support, Just mail us any issue we will be happpy to help.</p>
+								<p>For any issue create ticket by clicking here <a class="text-primary" href="http://support.pepdev.com">support</a></p>
+								<p>Or you can email us.</p>
+								<p>Email - <b>support@pepdev.com</b></p>
+								<p>Thank you for purchasing drug store theme . If you have any question that is beyond the scope of this documentation, Please feel free to create a support ticket using Our Support Site or send an email to support@pepdev.com.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="panel panel-default">
+							<div class="panel-body text-center">
+								<p class="font-36 text-success font-500 m-0">Thank you</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
