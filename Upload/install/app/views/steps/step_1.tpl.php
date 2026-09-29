@@ -18,7 +18,7 @@
                 </ul>
                 <p class="font-16">
                     We’re going to use this information to create a configuration file.	If for any reason this automatic installer doesn’t work, don’t worry. You can go for manual process which is described in documentation.
-                    Need more help? <a href="http://www.pepdev.com" class="text-secondary" target="_blank">Live Support</a>
+                    Need more help? <a href="https://www.aarambhxtechnology.in" class="text-secondary" target="_blank">Live Support</a>
                 </p>
             </div>
             <div class="panel-footer pl-0 pr-0 pb-0 text-right">

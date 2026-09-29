@@ -495,15 +495,26 @@ This software is released under the **[MIT License](LICENSE)**. You are free to 
 
 ---
 
-## 👨‍💻 Maintainer & Acknowledgements
+## 👨‍💻 Maintainer & Contact
 
 <div align="center">
 
 **Developed & Maintained by**
 
 ### **LALITH D**
+*AarambhX Technology*
+
+<br/>
+
+[![Website](https://img.shields.io/badge/Website-aarambhxtechnology.in-0984e3?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.aarambhxtechnology.in)
+[![Email](https://img.shields.io/badge/Email-lalithulalu%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lalithulalu@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/LALITHD-21)
 [![Repository](https://img.shields.io/badge/Repository-Pharmacy--Management--System-24292e?style=for-the-badge&logo=github)](https://github.com/LALITHD-21/Pharmacy-Management-System)
+
+<br/>
+
+🌐 **Official Website**: [www.aarambhxtechnology.in](https://www.aarambhxtechnology.in)  
+📧 **Direct Inquiries**: [lalithulalu@gmail.com](mailto:lalithulalu@gmail.com)
 
 <br/>
 

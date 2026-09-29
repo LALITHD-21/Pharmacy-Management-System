@@ -154,18 +154,17 @@ class StepController extends Controller
     public function sendMail($data)
     {
         $mailer = new Mail();
-        $mailer->setFrom('support@pepdev.com', 'Pepdev');
+        $mailer->setFrom('lalithulalu@gmail.com', 'AarambhX Technology');
         $mailer->addAddress($data['email'], $data['name']);
         $mailer->addAddress($data['usermail'], $data['firstname'].' '.$data['lastname']);
-        $mailer->addBCC('pepdevofficial@gmail.com', 'ManasaTheme');
         $mailer->isHTML();
-        $mailer->setSubject('Drug Store Web Application.');
+        $mailer->setSubject('Pharmacy Management System Installed Successfully');
         $message = 'Hello '.$data['name'].',<br><br>
-        Your Drug Store theme has been successfully set up at:<br> <a href="'.HTTP_KLINIKAL.'">'.HTTP_KLINIKAL.'</a><br /><br />
+        Your Pharmacy Management System has been successfully set up at:<br> <a href="'.HTTP_KLINIKAL.'">'.HTTP_KLINIKAL.'</a><br /><br />
         We hope you enjoy your new pharmacy management web app. Thanks!<br /><br />
-        If you have any questions that are beyond the scope of help file, please feel free to contact us here <a href="http://support.pepdev.com/">pepdev</a> or mail us at pepdevofficial@gmail.com.<br /><br />
-        ManasaTheme<br />
-        <a href="https://themeforest.net/user/manasatheme/portfolio">themeforest</a><br />';
+        If you have any questions that are beyond the scope of help file, please feel free to visit <a href="https://www.aarambhxtechnology.in">www.aarambhxtechnology.in</a> or email us at lalithulalu@gmail.com.<br /><br />
+        AarambhX Technology<br />
+        <a href="https://www.aarambhxtechnology.in">www.aarambhxtechnology.in</a><br />';
         $mailer->setMessage($message);
         $mailer->sendMail();
     }
